@@ -1,0 +1,7 @@
+{
+  "name": "appLivre",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
