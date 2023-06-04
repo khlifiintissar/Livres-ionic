@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'ajout',
+    loadChildren: () => import('./ajout/ajout.module').then( m => m.AjoutPageModule)
+  },
 ];
 
 @NgModule({
